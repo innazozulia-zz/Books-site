@@ -1,0 +1,137 @@
+@media(max-width: 1174px){
+  .slider__item-img{
+    width: 100%;
+    height: 250px;
+  }
+  .slider{
+    margin: 0;
+  }
+}
+@media(max-width: 1025px){
+  .tools__items{
+    flex-wrap: wrap;
+  }
+  .tools__item{
+    width: 50%;
+    margin-bottom: 30px;
+    padding-right: 10px;
+  }
+  .tools{
+    padding-top: 50px;
+  }
+}
+@media(max-width: 992px){
+.header__inner{
+  flex-wrap: wrap;
+  height: auto;
+  padding-top: 25px;
+}
+.menu{
+  order: 1;
+  width: 100%;
+}
+.menu__list{
+  justify-content: flex-end;
+  padding-top: 30px;
+}
+.direction__item-img{
+  width:40%;
+}
+.footer-col{
+  max-width: 100%;
+  }
+}
+@media(max-width:970px){
+  .footer-links{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+.footer-title{
+  padding-top: 40px;
+}
+.col-links{
+  padding-top: 0px;
+  }
+}
+@media(max-width: 890px){
+  .top__inner{
+    background-image: none;
+  } 
+}
+@media(max-width: 800px){
+  .direction__item-img{
+    width:90%;
+    margin: 0 auto 30px;
+    order: -1;
+  }
+  .direction__item{
+    flex-wrap: wrap;
+  }
+  .direction__item-content{
+    max-width: 100%;
+  }
+}
+@media(max-width: 768px){
+  .top__inner{
+    padding: 45px 0 60px;
+  }
+  .top__title{
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .tools__item-title{
+    line-height: 24px;
+    font-size: 24px;
+  }
+  .direction__item-title,
+  .slider__item-title{
+    line-height: 24px;
+    font-size: 24px;
+  }
+  .direction__list{
+    padding-left: 5px;
+  }
+}
+@media(max-width: 556px){
+  .tools__item{
+    width: 100%;    
+  }
+}
+@media(max-width: 524px){
+  .header__inner{
+    display: block;
+  }
+  .menu__list{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  text-align: center;
+  transform: translateX(-300%);
+  transition: all .5s ;
+  }
+  .menu__list--active{
+    transform: translateX(0);
+    transition: all .5s ;
+  }
+  .menu__btn{
+    display: block;
+    position: absolute;
+    top:25px;
+    right: 10px;
+  }
+  .menu__list-item + .menu__list-item{
+    margin-left: 0px;
+  }
+  .menu__list-link{
+    display: block;
+    padding: 10px 0;
+  }
+  .user-nav{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-top: 30px;
+  }
+}
